@@ -2,6 +2,12 @@
 
 Just a few scripts and configs to make development easy again
 
+*TOC*
+- [Colorful console (Bash)](#colorful-console-bash)
+- [Git Config](#git-config)
+- [Notes](#notes)
+- [License](#license)
+
 ## Colorful console (Bash)
 
 ![Colorful console (Bash)](doc/images/screenshot_terminal.png)
@@ -16,7 +22,11 @@ Run commands in [bash-colors/install.sh](bash-colors/install.sh)
 
 Copy and adapt [bash-colors/.bash_profile](bash-colors/.bash_profile)
 
-## Note
+## Git Config
+
+There is an example git configuration for fancy colors and handy shortcuts in [git-config/.gitconfig](/git-config/.gitconfig)
+
+## Notes
 
 This config should work on every OS/distro with a bash console. The configuration file name is maybe ```~/.bashrc``` or ```~/.profile```.
 
