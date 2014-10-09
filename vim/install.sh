@@ -1,6 +1,6 @@
 VIM_COLOR_DIR=~/.vim/colors;
 VIM_COLOR_DOWNLOAD_URL=https://raw.githubusercontent.com/zenorocha/dracula-theme/master/vim/dracula.vim
-VIM_RC_DOWNLOAD_URL=
+VIM_RC_DOWNLOAD_URL=https://raw.githubusercontent.com/frne/fancy-development-box-config/master/vim/.vimrc
 
 echo "Checking dir: $VIM_COLOR_DIR"
 if [ -d "$VIM_COLOR_DIR" ]; then
@@ -14,4 +14,4 @@ echo "Making a backup of ~/.vimrc"
 cp ~/.vimrc ~/.vimrc.bak
 
 echo "Downloading new .vimrc"
-wget $VIM_RC_DOWNLOAD_URL -P~/
+wget -O ~/.vimrc $VIM_RC_DOWNLOAD_URL
