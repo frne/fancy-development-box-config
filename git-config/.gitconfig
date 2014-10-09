@@ -1,0 +1,44 @@
+########################################################
+# Fancy Development Box Config                         #
+#                                                      #
+# https://github.com/frne/fancy-development-box-config #
+#                                                      #
+# Licensed under MIT                                   #
+# http://opensource.org/licenses/MIT                   #
+########################################################
+
+# add colors for git tools
+[color]
+ui = true
+pager = true
+branch = auto
+diff = auto
+interactive = auto
+status = auto
+
+[color "branch"]
+current = red reverse
+local = red
+remote = green
+
+[color "diff"]
+meta = yellow bold
+frag = magenta bold
+old = red bold
+new = green
+whitespace = red reverse
+
+[color "status"]
+added = yellow
+changed = green
+untracked = cyan
+
+# aliases
+[alias]
+co = checkout
+ci = commit
+st = status
+br = branch
+hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+type = cat-file -t
+dump = cat-file -p
