@@ -24,6 +24,8 @@ Copy and adapt [bash-colors/.bash_profile](bash-colors/.bash_profile)
 
 ## Git Config
 
+![Git Config](doc/images/screenshot_git_hist.png)
+
 There is an example git configuration for fancy colors and handy shortcuts in [git-config/.gitconfig](/git-config/.gitconfig)
 
 ## Notes
