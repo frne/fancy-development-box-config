@@ -1,5 +1,7 @@
 # Fancy Development Box Config
 
+Just a few scripts and configs to make development easy again
+
 ## Colorful console (Bash)
 
 ![Colorful console (Bash)](doc/images/screenshot_terminal.png)
