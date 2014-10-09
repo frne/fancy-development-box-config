@@ -1,0 +1,33 @@
+########################################################
+# Fancy Development Box Config                         #
+#                                                      #
+# https://github.com/frne/fancy-development-box-config #
+#                                                      #
+# Licensed under MIT                                   #
+# http://opensource.org/licenses/MIT                   #
+########################################################
+
+[color]
+ui = true
+pager = true
+branch = auto
+diff = auto
+interactive = auto
+status = auto
+
+[color "branch"]
+current = red reverse
+local = red
+remote = green
+
+[color "diff"]
+meta = yellow bold
+frag = magenta bold
+old = red bold
+new = green
+whitespace = red reverse
+
+[color "status"]
+added = yellow
+changed = green
+untracked = cyan
