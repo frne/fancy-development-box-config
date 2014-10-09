@@ -2,7 +2,7 @@
 
 ## Colorful console (Bash)
 
-![Colorful console (Bash)](images/screenshot_terminal.png)
+![Colorful console (Bash)](doc/images/screenshot_terminal.png)
 
 ### Prerequisites
 
